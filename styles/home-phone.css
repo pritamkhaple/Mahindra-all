@@ -1,0 +1,347 @@
+@media only screen and (max-width: 600px) {
+
+    .nav-div{
+        display: none;
+    }
+
+    /* .desk-slid{
+        display: none;
+    } */
+
+    /* .what-we-do{
+        display: none;
+    } */
+
+    /* .slider2{
+        display: none;
+    } */
+
+    .text-center {
+        /* display: none; */
+    }
+
+   
+
+  
+
+   
+
+   
+
+   
+
+   
+
+    .mob-nav{
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 4rem;
+        align-items: center;
+    }
+
+    .left img {
+        padding: 0.3rem 0;
+        margin: 0.2rem 0.4rem;
+        width: 160px;
+        height: auto;
+    }
+
+    .right-mob{
+        /* background-color: blue; */
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .nav-mb-icon{
+        width: 2rem;
+        margin: 3px;
+    }
+
+    .nav-mb-icon img{
+        width: 25px;
+        height: auto;
+    }
+
+    /* Slider */
+
+    .desk-img{
+        display: none;
+    }
+
+    .mob-img{
+        display: block;
+        
+    }
+
+    /* 2nd Navigation */
+
+
+    .nav-div2{
+
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .right-nav2{
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav-1{
+        display: flex;
+        height: 12rem;
+    }
+
+    .nav1-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .right-nav2>ul>li{
+        width: 50%;
+        margin: 0.4rem 0px;
+        text-align: center;
+        height: 2.4rem;
+    }
+
+    /* .norm-margin{
+        margin: 0.4rem 0px;
+    } */
+
+    .right-nav2>ul>li:nth-child(2){
+        order: 6;
+         margin: 0 1rem;
+    }
+
+    .right-nav2>ul>li:nth-child(4){
+        order: 5;
+         /* margin: 0 1rem; */
+        padding: 0.6rem 0 0 0;
+        border-top: 1px solid white;
+    }
+
+    /* .nchild{
+        margin: 1rem 1rem;
+    } */
+
+
+
+    /* WHAT WE DO SECTION */
+
+    .wht-v-do{
+        width: 100%;
+    }
+
+    .whtVdo{
+        width: 80%;
+        margin: auto;
+    }
+
+    .grid{
+        display: block;
+    }
+
+    #hide{
+        display: none;
+    }
+
+    .gr{
+        margin: 0.8rem 0;
+
+    }
+
+    .title-gr {
+        bottom: 3rem ;
+    }
+
+    .slid2-txt{
+        position: relative;
+        color: black;
+        text-shadow: none;
+        /* font-size: 1rem; */
+        width: 80%;
+         margin: 0.7rem auto;
+    }
+
+    .h-txt{
+        font-size: 1.7rem;
+    }
+
+    .p-txt{
+        font-size: 1rem;
+    }
+
+    /* Rise to be future ready section */
+
+    .slider3{
+        /* display: none; */
+    }
+
+    /* Rise to be future ready multi slider */
+
+    .multi-slider{
+        width: 90%;
+        display: block;
+    }
+
+
+    /* News section */
+
+    .color-news{
+        /* display: none; */
+    }
+
+    .news{
+        width: 90%;
+    }
+
+    .news-grid{
+        display: block;
+    }
+
+    .grd{
+        display: block;
+    }
+
+    .horizontal-grd{
+        display: none;
+    }
+
+    .grid1-img img{
+        width: 100%;
+    }
+
+    .vertical-grd-txt{
+        width: 100%;
+    }
+
+    /* WORK WITH US */
+
+    .work-with-us-container{
+        /* display: none; */
+        width: 100%;
+    }
+
+    .work-with-us{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .wwu1{
+        display: block;
+    }
+
+    .flx1 img{
+        width: 100%;
+        
+    }
+
+    .flx2{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .mob-util{
+        margin: 1.5rem 0;
+        padding: 0 1rem;
+    }
+
+    .txt{
+        padding: 0;
+    }
+
+    .btn{
+        margin: 1rem;
+    }
+
+    .wwu-h{
+
+    }
+
+    .wwu-p{
+
+    }
+
+
+    /* Footer section */
+
+    .footer{
+        display: block;
+    }
+
+    .mob-container{
+        width: 80%;
+    }
+
+    .ftr-logo{
+        margin: 0;
+    }
+
+    .ftr-lg{
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .footer-all{
+        display: contents;
+    }
+
+    .main-head{
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+
+    .footer-list{
+        display: none;
+    }
+
+    .row-footer{
+        display: block;
+        height: auto;
+        margin: 1rem 0;
+    }
+
+    .right{
+        justify-content: space-evenly;
+        padding: 1rem;
+    }
+
+    .left{
+        width: 80%;
+        margin: auto;
+        font-size: 0.8rem;
+    }
+
+    .left ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .left ul li{
+        margin: 0;
+    }
+
+    .rd{
+        font-size: 0.8rem;
+        /* height: 4rem; */
+
+    }
+
+    .rd div{
+        width: 60%;
+        margin: auto;
+        /* word-spacing: 25px; */
+        padding: 1rem;
+    }
+
+}
