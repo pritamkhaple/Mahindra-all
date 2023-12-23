@@ -177,7 +177,7 @@
 }
 
 .rtbfr-left{
-    /* width: 70%; */
+    width: 50%;
     height: 40rem;
 }
 
@@ -192,7 +192,7 @@
 
 .rtbfr-right{
     display: flex;
-    /* width: 100%; */
+    width: 50%;
     /* height: 400px; */
     flex-direction: column;
     gap: 2rem;
@@ -209,7 +209,7 @@
 }
 
 .rtbfr-bottom{
-    width: 70vw;
+    width: 80vw;
     margin: auto;
 }
 
