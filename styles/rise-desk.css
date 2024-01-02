@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;400&family=Lato:wght@700&family=Montserrat:wght@400;500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -44,8 +46,12 @@
 
 .purpose-p {
   font-size: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   line-height: 2rem;
+}
+
+.purpose-p span{
+  color: #dd052b;
 }
 
 .copy-txt {
@@ -157,14 +163,33 @@
 }
 
 .rtbr-contain {
-  width: 70vh;
+  /* width: 70vh; */
   margin: 1rem auto;
 }
 
-.rtbfr-copy{
-    width: 100%;
+.rise-copy{
     padding: 1rem;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h-text{
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.p-text{
+  font-family: 'Georama', sans-serif;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.rise-copy a{
+  color: #dd052b;
+  text-decoration: none;
+  width: 0.1rem;
+  border-bottom: 1px solid black;
 }
 
 .rtbfr-grid-container {
@@ -183,7 +208,7 @@
   grid-row-end: 3;
   grid-column-end: 4;
   height: 620px;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .block2 {
@@ -192,7 +217,7 @@
   grid-row-end: 2;
   grid-column-end: 6;
   height: 300px;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .block3 {
@@ -201,7 +226,7 @@
   grid-row-end: 3;
   grid-column-end: 6;
   height: 300px;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .block4 {
@@ -217,4 +242,90 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* Rise to create value */
+
+.r-t-c-v{
+  background-color: #f7f5ef;
+}
+
+.rtcv-flx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.rtcv-block{
+  margin: 4rem;
+}
+
+/* Awards section */
+
+.awards{
+  margin: 2rem 0;
+}
+
+.awards-slide-img img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.awards-slide-img img::before{
+  position: absolute;
+  content: "";
+  z-index: 2;
+  width: 100%;
+  height: 600px;
+  filter: brightness(0.5);
+}
+
+.red{
+  position: absolute;
+  height: 600px;
+  width: 6rem;
+  background-color: #dd052b;
+}
+
+.awards-spotlight-txt {
+  position: relative;
+  top: 21rem;
+  width: 70%;
+}
+
+/* Quick links section */
+
+.quick-main{
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.quick{
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.quick-block{
+  position: relative;
+}
+
+.quick-block img{
+  display: block;
+  width: 100%;
+}
+
+.quicktext{
+  position: absolute;
+  bottom: 3%;
+  border-bottom: 1px solid white;
+  color: white;
+  left: 5%;
 }

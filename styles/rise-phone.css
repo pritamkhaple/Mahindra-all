@@ -1,0 +1,115 @@
+@media only screen and (max-width: 600px) {
+
+    .min-display {
+        width: 100%;
+    }
+
+    .copy {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copy-txt {
+        max-width: 100%;
+        /* margin: 5rem; */
+        padding: 0;
+    }
+
+    .pillr-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .purpose-h {
+        font-size: 1.5rem;
+    }
+
+    .purpose-p {
+        margin: 1rem 0;
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+
+    .p-gr {
+        word-spacing: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .h-blk {
+        padding: 1px;
+    }
+
+    .rise-banner-txt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .rise-banner-h1 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 400;
+        width: 50%;
+    }
+
+    .slider-box{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        right: 0.8rem;
+        bottom: 0.3rem;
+    }
+
+    .rtbfr-grid-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rtbfr-blk{
+        width: 90%;
+        height: auto;
+    }
+
+    .h-text{
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    .p-text{
+        font-size: 0.8rem;
+    }
+
+    .rtcv-flx{
+        flex-direction: column;
+        gap: 0.1rem;
+        padding: 1rem;
+    }
+
+    .rtcv-block{
+        margin: 0;
+    }
+
+    .banner-h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .awards-spotlight-txt{
+        top: 33rem;
+        left: 5rem;
+    }
+
+    .quick{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+
+}
