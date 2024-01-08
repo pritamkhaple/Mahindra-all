@@ -1,8 +1,6 @@
 @media only screen and (max-width: 600px) {
 
-    .nav-div{
-        display: none;
-    }
+  
 
     /* .desk-slid{
         display: none;
@@ -20,19 +18,63 @@
         /* display: none; */
     }
 
-   
+    .nav-div {
+        display: block;
+    }
 
-  
+    .close{
+        display: none;
+    }
 
-   
+    .close img{
+        width: 23px;
+        position: absolute;
+        top: 20px;
+    }
 
-   
+    .left {
+        margin: 0;
+    }
 
-   
+    .nav-left {
+        height: fit-content;
+        padding: 1rem;
+    }
 
-   
+    .mob-nav1-ul {
+        display: none;
+        position: absolute;
+        top: 5rem;
+        width: 100%;
+        right: 1rem;
+        font-size: 1.5rem;
+    }
 
-    .mob-nav{
+    .mob-dvv {
+        display: grid;
+        width: 100%;
+        gap: 12px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .nav-mb-icon {
+        width: 2rem;
+        margin: 3px;
+    }
+
+    .nav-mb-icon img {
+        width: 25px;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+    /* .mob-nav{
         display: flex;
         background-color: black;
         width: 100%;
@@ -48,7 +90,7 @@
     }
 
     .right-mob{
-        /* background-color: blue; */
+        background-color: blue;
         width: 100%;
         display: flex;
         justify-content: right;
@@ -63,47 +105,49 @@
     .nav-mb-icon img{
         width: 25px;
         height: auto;
-    }
+    } */
 
     /* Slider */
 
-    .desk-img{
+    .desk-img {
         display: none;
     }
 
-    .mob-img{
+    .mob-img {
         display: block;
-        
+
     }
 
     /* 2nd Navigation */
 
 
-    .nav-div2{
+    .nav-div2 {}
 
-    }
-
-    .container{
+    .container {
         width: 100%;
+        height: fit-content;
     }
 
-    .right-nav2{
+    .right-nav2 {
         width: 100%;
         margin: 0;
     }
 
-    .nav-1{
+    .nav-1 {
         display: flex;
+    }
+
+    .nav-2 {
         height: 12rem;
     }
 
-    .nav1-ul{
+    .nav1-ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .right-nav2>ul>li{
+    .right-nav2>ul>li {
         width: 50%;
         margin: 0.4rem 0px;
         text-align: center;
@@ -114,14 +158,14 @@
         margin: 0.4rem 0px;
     } */
 
-    .right-nav2>ul>li:nth-child(2){
+    .right-nav2>ul>li:nth-child(2) {
         order: 6;
-         margin: 0 1rem;
+        margin: 0 1rem;
     }
 
-    .right-nav2>ul>li:nth-child(4){
+    .right-nav2>ul>li:nth-child(4) {
         order: 5;
-         /* margin: 0 1rem; */
+        /* margin: 0 1rem; */
         padding: 0.6rem 0 0 0;
         border-top: 1px solid white;
     }
@@ -134,58 +178,58 @@
 
     /* WHAT WE DO SECTION */
 
-    .wht-v-do{
+    .wht-v-do {
         width: 100%;
     }
 
-    .whtVdo{
+    .whtVdo {
         width: 80%;
         margin: auto;
     }
 
-    .grid{
+    .grid {
         display: block;
     }
 
-    #hide{
+    #hide {
         display: none;
     }
 
-    .gr{
+    .gr {
         margin: 0.8rem 0;
 
     }
 
     .title-gr {
-        bottom: 3rem ;
+        bottom: 3rem;
     }
 
-    .slid2-txt{
+    .slid2-txt {
         position: relative;
         color: black;
         text-shadow: none;
         /* font-size: 1rem; */
         width: 80%;
-         margin: 0.7rem auto;
+        margin: 0.7rem auto;
     }
 
-    .h-txt{
+    .h-txt {
         font-size: 1.7rem;
     }
 
-    .p-txt{
+    .p-txt {
         font-size: 1rem;
     }
 
     /* Rise to be future ready section */
 
-    .slider3{
+    .slider3 {
         /* display: none; */
     }
 
     /* Rise to be future ready multi slider */
 
-    .multi-slider{
+    .multi-slider {
         width: 90%;
         display: block;
     }
@@ -193,151 +237,147 @@
 
     /* News section */
 
-    .color-news{
+    .color-news {
         /* display: none; */
     }
 
-    .news{
+    .news {
         width: 90%;
     }
 
-    .news-grid{
+    .news-grid {
         display: block;
     }
 
-    .grd{
+    .grd {
         display: block;
     }
 
-    .horizontal-grd{
+    .horizontal-grd {
         display: none;
     }
 
-    .grid1-img img{
+    .grid1-img img {
         width: 100%;
     }
 
-    .vertical-grd-txt{
+    .vertical-grd-txt {
         width: 100%;
     }
 
     /* WORK WITH US */
 
-    .work-with-us-container{
+    .work-with-us-container {
         /* display: none; */
         width: 100%;
     }
 
-    .work-with-us{
+    .work-with-us {
         width: 90%;
         display: block;
         margin: auto;
     }
 
-    .wwu1{
+    .wwu1 {
         display: block;
     }
 
-    .flx1 img{
+    .flx1 img {
         width: 100%;
-        
+
     }
 
-    .flx2{
+    .flx2 {
         width: 100%;
         padding: 0;
         margin-bottom: 1.5rem;
     }
 
-    .mob-util{
+    .mob-util {
         margin: 1.5rem 0;
         padding: 0 1rem;
     }
 
-    .txt{
+    .txt {
         padding: 0;
     }
 
-    .btn{
+    .btn {
         margin: 1rem;
     }
 
-    .wwu-h{
+    .wwu-h {}
 
-    }
-
-    .wwu-p{
-
-    }
+    .wwu-p {}
 
 
     /* Footer section */
 
-    .footer{
+    .footer {
         display: block;
     }
 
-    .mob-container{
+    .mob-container {
         width: 80%;
     }
 
-    .ftr-logo{
+    .ftr-logo {
         margin: 0;
     }
 
-    .ftr-lg{
+    .ftr-lg {
         padding: 1rem 0;
         text-align: center;
     }
 
-    .footer-all{
+    .footer-all {
         display: contents;
     }
 
-    .main-head{
+    .main-head {
         margin: 1rem 0;
         padding: 1rem 0;
     }
 
-    .footer-list{
+    .footer-list {
         display: none;
     }
 
-    .row-footer{
+    .row-footer {
         display: block;
         height: auto;
         margin: 1rem 0;
     }
 
-    .right{
+    .right {
         justify-content: space-evenly;
         padding: 1rem;
     }
 
-    .left{
+    .left {
         width: 80%;
         margin: auto;
         font-size: 0.8rem;
     }
 
-    .left ul{
+    .left ul {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
         justify-content: center;
     }
 
-    .left ul li{
+    .left ul li {
         margin: 0;
     }
 
-    .rd{
+    .rd {
         font-size: 0.8rem;
         /* height: 4rem; */
 
     }
 
-    .rd div{
+    .rd div {
         width: 60%;
         margin: auto;
         /* word-spacing: 25px; */
