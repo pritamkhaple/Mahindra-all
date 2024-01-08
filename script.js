@@ -6,6 +6,7 @@ burger.addEventListener("click", () => {
         document.querySelector(".nav-div").style.height = "100vh";
         document.querySelector("#burg").style.display = "none";
         document.querySelector(".close").style.display = "block";
+        document.querySelector(".banner-txt").style.position = "relative";
 })
 
 let clos = document.getElementById("closed");
@@ -15,5 +16,6 @@ clos.addEventListener("click", ()=>{
     document.querySelector(".nav-div").style.height = "auto";
     document.querySelector("#burg").style.display = "block";
     document.querySelector(".close").style.display = "none";
+    document.querySelector(".banner-txt").style.position = "absolute";
     console.log("check close")
 })
